@@ -19,17 +19,19 @@ class ProblemItem(object):
     title = None
     url = None
     solutions = None  # [(language), (No), (path)]
+    tags = None  # ["Sort", "Array"]
     difficulty = None  # ["Easy", "Medium", "Hard"]
 
     def __init__(self):
         self.solutions = []
 
     def from_cache_format(self, line):
-        _, serial, title_url, solutions, difficulty, _ = line.split("|")
+        _, serial, title_url, solutions, tags, difficulty, _ = line.split("|")
         self.serial = serial
         self.title, self.url = re.findall(re.compile("\[(.*)\]\((.*)\)"), title_url)[0]
         self.solutions = re.findall(re.compile("\[([a-zA-Z+]*?)-?([IVX]*?)\]\((.*?)\)"), solutions)
         self.solutions = [tuple(item) for item in self.solutions]
+        self.tags = tags.split(",")
         self.difficulty = difficulty
 
     def dump(self):
@@ -39,6 +41,7 @@ class ProblemItem(object):
             ",".join(["[{0}{1}]({2})".format(item[0],
                                              "-" + item[1] if item[1] else item[1],
                                              item[2]) for item in self.solutions]),
+            ",".join(self.tags),
             self.difficulty
         ]) + "|\n"
 
@@ -78,6 +81,7 @@ class BaseExtractor(object):
             item.title = item.title or header["Title"]
             item.url = item.url or header["Source"]
             item.solutions.append((self.solution_type, header["Method"], header["Path"]))
+            item.tags = item.tags or header["Tags"].split(",")
             item.difficulty = item.difficulty or header["Difficulty"]
         return item
 
@@ -87,6 +91,7 @@ class CppExtractor(BaseExtractor):
     // Number     : 56
     // Title      : Merge Intervals
     // Source     : https://leetcode.com/problems/merge-intervals/description/
+    // Tags       : Sort
     // Difficulty : Medium
     // Author     : William
     // Date       : 2017-12-06
@@ -106,6 +111,7 @@ class PythonExtractor(BaseExtractor):
     #  Number     : 56
     #  Title      : Merge Intervals
     #  Source     : https://leetcode.com/problems/merge-intervals/description/
+    #  Tags       : Sort
     #  Difficulty : Medium
     #  Author     : William
     #  Date       : 2017-12-06
@@ -122,8 +128,8 @@ class PythonExtractor(BaseExtractor):
 
 class ReadmeDoc(object):
     description = "LeetCode Algorithm\n========\n\n"
-    header = "| # | Title | Solution | Difficulty |\n"
-    boundary = "|---| ----- | -------- | ---------- |\n"
+    header = "| # | Title | Solution | Tags | Difficulty |\n"
+    boundary = "|---| ----- | -------- | -------- | ---------- |\n"
     meta = "".join([description, header, boundary])
 
     def __init__(self, filename):

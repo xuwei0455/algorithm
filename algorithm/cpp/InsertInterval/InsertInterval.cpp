@@ -1,6 +1,7 @@
 // Number     : 57 
 // Title      : Insert Interval
 // Source     : https://leetcode.com/problems/insert-interval/description/
+// Tags       : Sort
 // Difficulty : Hard
 // Author     : William
 // Date       : 2017-12-07
