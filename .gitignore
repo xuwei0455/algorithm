@@ -261,5 +261,6 @@ __pycache__/
 *.pyc
 
 # Project files
+*.sln
 **/*.vcxproj
 **/*.vcxproj.filters
