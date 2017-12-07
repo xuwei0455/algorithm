@@ -18,8 +18,11 @@ class ProblemItem(object):
     serial = None  # number
     title = None
     url = None
-    solutions = []  # [(language), (No), (path)]
+    solutions = None  # [(language), (No), (path)]
     difficulty = None  # ["Easy", "Medium", "Hard"]
+
+    def __init__(self):
+        self.solutions = []
 
     def from_cache_format(self, line):
         _, serial, title_url, solutions, difficulty, _ = line.split("|")
@@ -137,14 +140,16 @@ class ReadmeDoc(object):
                 if begin_flag and line:
                     entry = ProblemItem()
                     entry.from_cache_format(line)
-                    self.entry_dict[entry.serial] = entry
+                    # todo: optimize for not read exist file
+                    # self.entry_dict[entry.serial] = entry
 
     def merge(self, entry_iter):
         for entry in entry_iter:
             if entry.serial not in self.entry_dict:
                 self.entry_dict[entry.serial] = entry
             else:
-                self.entry_dict[entry.serial].solutions = list(set(entry.solutions) -
+                # todo: optimize for not read exist file
+                self.entry_dict[entry.serial].solutions = list(set(entry.solutions) |
                                                                set(self.entry_dict[entry.serial].solutions))
             # sort the solution by language and method version
             self.entry_dict[entry.serial].solutions = sorted(self.entry_dict[entry.serial].solutions,
