@@ -9,3 +9,4 @@ LeetCode Algorithm
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[c++](./algorithm/cpp/InsertionSortList/InsertionSortList.cpp)|Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[c++](./algorithm/cpp/SortList/SortList.cpp)|Sort|Medium|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)|[c++](./algorithm/cpp/MaximunGap/MaximumGap.cpp)|Sort|Hard|
+|179|[Largest Number](https://leetcode.com/problems/largest-number/description/)|[c++](./algorithm/cpp/LargestNumber/LargestNumber.cpp)|Sort|Medium|
