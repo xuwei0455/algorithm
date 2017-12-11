@@ -15,3 +15,4 @@ LeetCode Algorithm
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)|[c++-I](./algorithm/cpp/WiggleSortII/WiggleSortII-I.cpp),[c++-II](./algorithm/cpp/WiggleSortII/WiggleSortII-II.cpp)|Sort|Medium|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[c++](./algorithm/cpp/IntersectionOfTwoArrays/IntersectionOfTwoArrays.cpp)|Sort|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)|[c++](./algorithm/cpp/IntersectionOfTwoArraysII/IntersectionOfTwoArraysII.cpp)|Sort|Easy|
+|524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)|[c++](./algorithm/cpp/LongestWordInDictionaryThroughDeleting/LongestWordInDictionaryThroughDeleting.cpp)|Sort|Medium|
