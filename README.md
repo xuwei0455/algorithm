@@ -10,3 +10,4 @@ LeetCode Algorithm
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[c++](./algorithm/cpp/SortList/SortList.cpp)|Sort|Medium|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)|[c++](./algorithm/cpp/MaximunGap/MaximumGap.cpp)|Sort|Hard|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/description/)|[c++](./algorithm/cpp/LargestNumber/LargestNumber.cpp)|Sort|Medium|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[c++-I](./algorithm/cpp/ValidAnagram/ValidAnagram-I.cpp),[c++-II](./algorithm/cpp/ValidAnagram/ValidAnagram-II.cpp)|Sort|Easy|
