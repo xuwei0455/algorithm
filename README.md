@@ -13,3 +13,4 @@ LeetCode Algorithm
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[c++-I](./algorithm/cpp/ValidAnagram/ValidAnagram-I.cpp),[c++-II](./algorithm/cpp/ValidAnagram/ValidAnagram-II.cpp)|Sort|Easy|
 |274|[H-Index](https://leetcode.com/problems/h-index/description/)|[c++-I](./algorithm/cpp/HIndex/HIndex-I.cpp),[c++-II](./algorithm/cpp/HIndex/HIndex-II.cpp)|Sort|Medium|
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/description/)|[c++-I](./algorithm/cpp/WiggleSortII/WiggleSortII-I.cpp),[c++-II](./algorithm/cpp/WiggleSortII/WiggleSortII-II.cpp)|Sort|Medium|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)|[c++](./algorithm/cpp/IntersectionOfTwoArrays/IntersectionOfTwoArrays.cpp)|Sort|Easy|
