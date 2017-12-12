@@ -7,6 +7,7 @@ LeetCode Algorithm
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[c++-I](./algorithm/cpp/LongestPalindromicSubstring/LongestPalindromicSubstring-I.cpp),[c++-II](./algorithm/cpp/LongestPalindromicSubstring/LongestPalindromicSubstring-II.cpp)|String|Medium|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[c++](./algorithm/cpp/ZigZagConversion/ZigZagConversion.cpp)|String|Medium|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|[c++](./algorithm/cpp/StringToInteger/StringToInteger.cpp)|String|Medium|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[c++](./algorithm/cpp/RegularExpressionMatching/RegularExpressionMatching.cpp)|String|Hard|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[c++](./algorithm/cpp/MergeIntervals/MergeIntervals.cpp),[py](./algorithm/python/MergeIntervals/MergeIntervals.py)|Sort|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[c++](./algorithm/cpp/InsertInterval/InsertInterval.cpp)|Sort|Hard|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[c++](./algorithm/cpp/SortColors/SortColors.cpp)|Sort|Medium|
