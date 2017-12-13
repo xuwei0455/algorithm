@@ -15,6 +15,7 @@ LeetCode Algorithm
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[c++](./algorithm/cpp/ValidParentheses/ValidParentheses.cpp)|String|Easy|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[c++](./algorithm/cpp/GenerateParentheses/GenerateParentheses.cpp)|String|Medium|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[c++](./algorithm/cpp/ImplementstrStr/ImplementstrStr.cpp)|String|Easy|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)|[c++](./algorithm/cpp/SubstringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.cpp)|String|Hard|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[c++](./algorithm/cpp/MergeIntervals/MergeIntervals.cpp),[py](./algorithm/python/MergeIntervals/MergeIntervals.py)|Sort|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[c++](./algorithm/cpp/InsertInterval/InsertInterval.cpp)|Sort|Hard|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[c++](./algorithm/cpp/SortColors/SortColors.cpp)|Sort|Medium|
