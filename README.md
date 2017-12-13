@@ -10,6 +10,7 @@ LeetCode Algorithm
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[c++](./algorithm/cpp/RegularExpressionMatching/RegularExpressionMatching.cpp)|String|Hard|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)|[c++](./algorithm/cpp/IntegerToRoman/IntegerToRoman.cpp)|String|Medium|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|[c++](./algorithm/cpp/RomanToInteger/RomanToInteger.cpp)|String|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|[c++](./algorithm/cpp/LongestCommonPrefix/LongestCommonPrefix.cpp)|String|Easy|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[c++](./algorithm/cpp/MergeIntervals/MergeIntervals.cpp),[py](./algorithm/python/MergeIntervals/MergeIntervals.py)|Sort|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[c++](./algorithm/cpp/InsertInterval/InsertInterval.cpp)|Sort|Hard|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[c++](./algorithm/cpp/SortColors/SortColors.cpp)|Sort|Medium|
