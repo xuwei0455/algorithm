@@ -13,6 +13,7 @@ LeetCode Algorithm
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|[c++](./algorithm/cpp/LongestCommonPrefix/LongestCommonPrefix.cpp)|String|Easy|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|[c++](./algorithm/cpp/LetterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.cpp)|String|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[c++](./algorithm/cpp/ValidParentheses/ValidParentheses.cpp)|String|Easy|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[c++](./algorithm/cpp/GenerateParentheses/GenerateParentheses.cpp)|String|Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)|[c++](./algorithm/cpp/MergeIntervals/MergeIntervals.cpp),[py](./algorithm/python/MergeIntervals/MergeIntervals.py)|Sort|Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/description/)|[c++](./algorithm/cpp/InsertInterval/InsertInterval.cpp)|Sort|Hard|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[c++](./algorithm/cpp/SortColors/SortColors.cpp)|Sort|Medium|
