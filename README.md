@@ -28,6 +28,7 @@ LeetCode Algorithm
 |67|[Add Binary](https://leetcode.com/problems/add-binary/description/)|[c++](./algorithm/cpp/AddBinary/AddBinary.cpp)|String|Easy|
 |68|[Text Justification](https://leetcode.com/problems/text-justification/description/)|[c++](./algorithm/cpp/TextJustification/TextJustification.cpp)|String|Hard|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/description/)|[c++](./algorithm/cpp/SimplifyPath/SimplifyPath.cpp)|String|Medium|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/description/)|[c++-I](./algorithm/cpp/EditDistance/EditDistance-I.cpp),[c++-II](./algorithm/cpp/EditDistance/EditDistance-II.cpp)|String|Hard|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[c++](./algorithm/cpp/SortColors/SortColors.cpp)|Sort|Medium|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[c++](./algorithm/cpp/InsertionSortList/InsertionSortList.cpp)|Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[c++](./algorithm/cpp/SortList/SortList.cpp)|Sort|Medium|
