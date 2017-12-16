@@ -32,6 +32,7 @@ LeetCode Algorithm
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[c++](./algorithm/cpp/SortColors/SortColors.cpp)|Sort|Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)|[c++](./algorithm/cpp/MinimumWindowSubstring/MinimumWindowSubstring.cpp)|String|Hard|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/description/)|[c++](./algorithm/cpp/ScrambleString/ScrambleString.cpp)|String|Hard|
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/description/)|[c++](./algorithm/cpp/DecodeWays/DecodeWays.cpp)|String|Medium|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[c++](./algorithm/cpp/InsertionSortList/InsertionSortList.cpp)|Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[c++](./algorithm/cpp/SortList/SortList.cpp)|Sort|Medium|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)|[c++](./algorithm/cpp/MaximunGap/MaximumGap.cpp)|Sort|Hard|
