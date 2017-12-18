@@ -36,6 +36,7 @@ LeetCode Algorithm
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[c++](./algorithm/cpp/RestoreIPAddresses/RestoreIPAddresses.cpp)|String|Medium|
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/description/)|[c++](./algorithm/cpp/InterleavingString/InterleavingString.cpp)|String|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/restore-ip-addresses/description/)|[c++](./algorithm/cpp/DistinctSubsequences/DistinctSubsequences.cpp)|String|Hard|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[c++](./algorithm/cpp/ValidPalindrome/ValidPalindrome.cpp)|String|Easy|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)|[c++](./algorithm/cpp/InsertionSortList/InsertionSortList.cpp)|Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[c++](./algorithm/cpp/SortList/SortList.cpp)|Sort|Medium|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/description/)|[c++](./algorithm/cpp/MaximunGap/MaximumGap.cpp)|Sort|Hard|
